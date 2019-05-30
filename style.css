@@ -1,25 +1,27 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: "Space Mono", monospace;
-    background-color: #000;
-    color: #fff;
+    color: #484848;
+    font-family: "Lato", sans-serif;
+    padding: 0.45em 2.65em 3em;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3em;
 }
 
 p {
-    font-size: 40px;
+    font-size: 2em;
 }
 
 a {
     text-decoration: none;
-    color: tomato;
+    color: #637a91;
 }
 
 .wrapper {
@@ -28,7 +30,7 @@ a {
 
 .fab {
     font-size: 200px;
-    color: tomato;
+    color: #637a91;
 }
 
 .paragraph_container {
