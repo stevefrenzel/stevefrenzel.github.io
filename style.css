@@ -1,37 +1,123 @@
-@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+/* GLOBAL SETTINGS */
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body {
-    color: #484848;
-    font-family: "Lato", sans-serif;
-    padding: 0.45em 2.65em 3em;
-    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #3a4750;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-p {
-    font-size: 2em;
+figure {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: #637a91;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #4ecca3;
+}
+
+/* SCROLL SNAP */
+
+.container {
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+/* SECTION SETTINGS */
+
+.portfolio-section {
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .wrapper {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5%;
 }
 
-.fab {
-    font-size: 200px;
-    color: #637a91;
+/* #start-section,
+#projects-section,
+#skills-section {
+    
+} */
+
+/* START SECTION */
+
+#start-section {
+    background: #e8ecf1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.paragraph_container {
+#steve-frenzel-image {
+    width: 400px;
+    border-radius: 40px 0px 40px 0px;
+    box-shadow: 10px 10px 50px;
+}
+
+#start-text > h1 {
+    font-size: 3rem;
+}
+
+#start-text > h2 {
+    font-size: 2.5rem;
+}
+
+#start-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.symbol-and-link {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.fab, .fas {
+    margin-right: 5px;
+}
+
+#github,
+#email,
+#resume {
+    margin-left: 30px;
+}
+
+/* PROJECTS SECTION */
+
+#projects-section {
+    background: #b5cfd8;
+}
+
+#projects-section > h1 {
+    margin: 0;
+}
+
+/* SKILLS SECTION */
+
+#skills-section {
+    background: #7393a7;
+}
+
+#skills-section > h1 {
+    margin: 0;
 }
