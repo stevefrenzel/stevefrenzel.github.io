@@ -16,7 +16,7 @@ Using GitHub Pages to showcase my portfolio and projects I'm working on
   - Hot Sauce Lover 🔥
 - add LinkedIn and Github link √
 - add email link √
-- include direct download link for resume
+- include direct download link for resume √
 
 ### 2. Projects
 
@@ -27,15 +27,8 @@ Using GitHub Pages to showcase my portfolio and projects I'm working on
 - Petition
 - Incremental Search
 
-### 3. About
+### 3. Contact
 
-- add skills (with symbols):
-  - HTML
-  - CSS
-  - JavaScript
-  - Vue
-  - React
-  - Sass
-  - Node
-  - jQuery
-  - PostgreSQL
+- add contact form
+  - requires name, e-mail, text
+- add captcha
