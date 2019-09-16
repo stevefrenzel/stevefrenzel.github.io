@@ -155,6 +155,21 @@ a:hover {
     #start-text > h2 {
         font-size: 1rem;
     }
+
+    #start-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .symbol-and-link {
+        font-size: 1rem;
+    }
+
+    #github,
+    #resume {
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -182,6 +197,21 @@ a:hover {
 
     #start-text > h2 {
         font-size: 1rem;
+    }
+
+    #start-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .symbol-and-link {
+        font-size: 1.2rem;
+    }
+
+    #github,
+    #resume {
+        margin-left: 0;
+        margin-top: 5px;
     }
 }
 
@@ -211,6 +241,19 @@ a:hover {
     #start-text > h2 {
         font-size: 1.5rem;
     }
+
+    #start-links {
+        flex-direction: row;
+    }
+
+    .symbol-and-link {
+        font-size: 1.5rem;
+    }
+
+    #github,
+    #resume {
+        margin-left: 30px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -230,6 +273,10 @@ a:hover {
 
     #start-text > h2 {
         font-size: 2rem;
+    }
+
+    .symbol-and-link {
+        font-size: 1.8rem;
     }
 }
 
