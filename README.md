@@ -9,14 +9,10 @@ Using GitHub Pages to showcase my portfolio and projects I'm working on
 
 ### 1. Start
 
-- add picture √
-- add description with Typewriter effect:
-  - Full Stack Web Developer
-  - Sound Engineer / Music Producer
-  - Hot Sauce Lover 🔥
-- add LinkedIn and Github link √
-- add email link √
-- include direct download link for resume √
+- [√] add picture
+- [√] add description with Typewriter effect:
+- [√] add LinkedIn and Github link
+- [√] include direct download link for resume
 
 ### 2. Projects
 
