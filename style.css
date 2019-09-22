@@ -1,5 +1,7 @@
 /* GLOBAL SETTINGS */
 
+/* https://colorhunt.co/palette/150983 */
+
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 * {
@@ -10,7 +12,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
-    color: #3a4750;
 }
 
 figure {
@@ -56,10 +57,13 @@ a:hover {
     margin-left: 5%;
 }
 
+/* ////////////// */
 /* START SECTION */
+/* //////////// */
 
 #start-section {
-    background: #e8ecf1;
+    background: #e8e8e8;
+    color: #00334e;
 }
 
 /* START SECTION: IMAGE */
@@ -96,7 +100,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .symbol-and-link {
@@ -113,25 +117,34 @@ a:hover {
 }
 
 #github,
-#resume {
+#resume,
+#email {
     margin-left: 30px;
 }
 
+/* ///////////////// */
 /* PROJECTS SECTION */
+/* /////////////// */
 
 #projects-section {
-    background: #b5cfd8;
+    background: #5588a3;
+    color: #e8e8e8;
 }
 
 #projects-section > h1 {
     margin: 0;
 }
 
-/* SKILLS SECTION */
+/* /////////////// */
+/* CONTACT SECTION */
+/* ///////////// */
 
 #contact-section {
-    background: #7393a7;
-    color: #eee;
+    background: #145374;
+    color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #contact-section > h1 {
@@ -177,7 +190,8 @@ a:hover {
     }
 
     #github,
-    #resume {
+    #resume,
+    #email {
         margin-left: 0;
         margin-top: 5px;
     }
@@ -220,7 +234,8 @@ a:hover {
     }
 
     #github,
-    #resume {
+    #resume,
+    #email {
         margin-left: 0;
         margin-top: 5px;
     }
@@ -262,7 +277,8 @@ a:hover {
     }
 
     #github,
-    #resume {
+    #resume,
+    #email {
         margin-left: 30px;
     }
 }
